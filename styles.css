@@ -1,5 +1,10 @@
 html{
+	height: 100%;
+	margin: auto;
+	display: table;
 	background-image: url("./res/background.png");
+	
+	
 }
 
 a:link{
@@ -9,9 +14,6 @@ a:visited{
 	color: pink;
 }
 
-.link{
-	margin: 0px;
-}
 
 h1{
 	color: #F2B1A2;
@@ -22,5 +24,20 @@ h1{
 	color: white;
 }
 
+body{
+	height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title{
+	color: pink;
+}
+
+footer{
+	margin-top: 50px
+}
+
 .kopimi{
+	margin-left: 100%;
 }
