@@ -30,14 +30,16 @@ body{
     vertical-align: middle;
 }
 
-.title{
+
+.track{
+	display: inline;
+}
+
+.track figcaption{
 	color: pink;
 }
-
 footer{
-	margin-top: 50px
+	margin-top: 50px;
+	padding-left: 85%;
 }
 
-.kopimi{
-	margin-left: 100%;
-}
